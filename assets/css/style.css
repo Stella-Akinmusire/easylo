@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700;800;900&family=Raleway:wght@100;200;300;400;600;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 *{
     font-family: 'Poppins', sans-serif;
 }
@@ -480,5 +478,70 @@ html{
     width: 20vw;
     border: 2px solid #10C98F;
 }
-#footer .container-fluid .col-md-4 .col-md-3 img{
+.col-md-4 .socialmedia{
+    padding: 1.5rem 0;
+    justify-content: space-between;
+}
+.col-md-4 .socialmedia a{
+    text-decoration: none;
+    color: #000;
+    justify-content: space-between;
+}
+.socialmedia a:first-child{
+    margin-right: 1.5rem;
+    color: #474040;
+    font-size: 1.5em;
+}
+.socialmedia a:first-child:hover{
+    color: #12c212;
+    transform: rotateY(180deg);
+    transition: all .5s ease;
+}
+.socialmedia .fa-instagram{
+    margin-right: 1.5rem;
+    color: #796d6d;
+    font-size: 1.5em;
+}
+.socialmedia .fa-instagram:hover{
+    color: #12c212;
+    transform: rotateY(180deg);
+    transition: all .5s ease;
+}
+.socialmedia .fa-linkedin{
+    margin-right: 1.5rem;
+    color: #474040;
+    font-size: 1.5em;
+}
+.socialmedia .fa-linkedin:hover{
+    color: #12c212;
+    transform: rotateY(180deg);
+    transition: all .5s ease;
+}
+.socialmedia .fa-youtube{
+    color: #474040;
+    font-size: 1.5em;
+    opacity: .4em;
+}
+.socialmedia .fa-youtube:hover{
+    color: #12c212;
+    transform: rotateY(180deg);
+    transition: all .5s ease;
+}
+/* footertwo */
+#footertwo .ft{
+    padding-top: 1.5rem;
+    padding-bottom: .6rem;
+    background-color: #efeff7;
+}
+#footertwo .ft p{
+    color: #625c5c;
+    text-align: center;
+}
+
+#footertwo .fa-heart{
+    color: #12c212;
+}
+#footertwo .lib{
+    text-decoration-line: none;
+    color: #12c212;
 }
